@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Created-By: Apache Maven Bundle Plugin
+Tool: Bnd-1.15.0
+Bnd-LastModified: 1638341211449
+Export-Package: b24.mediators;uses:="javax.crypto,org.apache.synapse.med
+ iators,org.apache.commons.logging,org.apache.synapse"
+Import-Package: javax.crypto,org.apache.commons.logging,org.apache.synap
+ se,org.apache.synapse.mediators
+Bundle-Name: B24Encryption
+Bundle-Description: B24Encryption
+Bundle-SymbolicName: B24Encryption
+DynamicImport-Package: *
+Bundle-Version: 1.0.0.SNAPSHOT
+Built-By: soklin
+Build-Jdk: 11.0.11
+
